@@ -1,0 +1,68 @@
+---
+title: "Advancded Reveal.js"
+subtitle: "Another completely useless presentation"
+author: "[anarinsk](https://www.lostineconomics.com)"
+date: "2024-03-28"
+format: 
+    revealjs:
+        embed-resources: true
+        include-in-header: [favicon.html, mathjax.html]
+        incremental: false   
+        #css: []
+        theme: [format.scss, black,customs.scss]
+        transition: concave
+        background-transition: fade
+        smaller: false
+        scrollable: true
+        subtitle-as-header: false
+        sc-sb-title: "Table of Contents"
+        logo: "logo2.png"
+        footer: "TEST FOR FOOTER!"
+        #self-contained: true
+filters: 
+  - reveal-header
+slide-level: 2
+number-sections: false
+---
+
+## Disclaimer{.center}
+
+:::{.nonincremental}
+This is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). 
+
+🐈🐈🐈
+
+- 이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
+- Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
+:::
+
+# Advanced Features I
+
+## Slide Header 
+
+- 슬라이드 헤더는 어떻게 붙이는가? 
+- 좋은 애드온이 있다. 
+- [reveal-header](https://github.com/shafayetShafee/reveal-header)
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+- (continued in the next slide... Hit proper key to continue)
+
+---
+
+- Go to the bathroom 
+- Make breakfast 
+
+# Big Test 
+
+## TEST 
+
+# 한글 섹션 제목 
+
+## 한글은 세종대왕이제~ 
+
+# End of Document
+
+## Thank you{.hidden}

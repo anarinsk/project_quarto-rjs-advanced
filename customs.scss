@@ -1,14 +1,23 @@
 /*-- scss:rules --*/
 
-.reveal-header .sc-title {
-    font-size: 2em !important;
-    text-align: center !important;
+.reveal .reveal-header .sc-title{
+    /* --header-font-color: #f80a0a !important; */
+    --header-font-size: max(10px, 2.5vw) !important; 
 }
 
 .reveal .footer {
-    font-size: 0.5em !important;
+    font-size: 20px !important;
     text-align: center !important;
     font-family: 'SUITE', sans-serif !important;
-    color: #f0f0f0 !important;
-    font-weight: 700 !important;
+    color: #808080 !important;
+    font-weight: 600 !important;
+  }
+
+figcaption {
+    margin: auto;
+    text-align: center;
+  }
+  
+.reveal .slides section h2{
+      margin-bottom: 100px;  /* 원하는 거리로 조절 */
   }

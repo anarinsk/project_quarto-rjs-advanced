@@ -46,5 +46,5 @@ div.reveal-header.no-logo {
   
   .reveal-header .sc-title p { margin-left: 1vw; }
   .reveal-header.no-logo .sc-title p {margin-left: 2vw; }
-  div.reveal.has-logo div.slide-number { font-size: 10px; }
+  div.reveal.has-logo div.slide-number { font-size: 20px; }
 }

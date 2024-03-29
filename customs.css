@@ -1,0 +1,32 @@
+figcaption {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .reveal .slides section h2{
+      margin-bottom: 100px;  /* 원하는 거리로 조절 */
+  }
+
+  .reveal .footer {
+    font-size: 0.4em !important;
+    text-align: center !important;
+    font-family: 'SUITE', sans-serif !important;
+    color: #808080 !important;
+    font-weight: 800 !important;
+  }
+
+.reveal-header .sc-title {
+    font-size: 5em !important;
+    text-align: center !important;
+    color: #f00000 !important;
+}
+
+.reveal-header .header-text {
+    font-size: 5em !important;
+    text-align: center !important;
+    color: #f00000 !important;
+}
+
+.reveal-header .inverse-header {
+    color: #f00000 !important;
+}

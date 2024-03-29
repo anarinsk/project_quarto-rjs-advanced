@@ -2,35 +2,35 @@
   {
     "objectID": "main.html#disclaimer",
     "href": "main.html#disclaimer",
-    "title": "More on reveal.js",
+    "title": "More on  Quarto + Reveal.js",
     "section": "Disclaimer",
     "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
   },
   {
     "objectID": "main.html#slide-header",
     "href": "main.html#slide-header",
-    "title": "More on reveal.js",
+    "title": "More on  Quarto + Reveal.js",
     "section": "Slide Header",
     "text": "Slide Header\n\n슬라이드 헤더는 어떻게 붙이는가?\n좋은 애드온이 있다. 애드온에 대한 설명은 아래 참고\nreveal-header"
   },
   {
     "objectID": "main.html#css-what-where",
     "href": "main.html#css-what-where",
-    "title": "More on reveal.js",
+    "title": "More on  Quarto + Reveal.js",
     "section": "CSS what, where",
     "text": "CSS what, where\n\nscss든 css든 불러올 수 있다.\n가장 문제가 되는 것은 위치\n\n만일 본문에 관련된 것이라면 css: [...]로 preamble에 넣으면 된다.\n헤더나 푸터와 관련된 것이라면 theme: [...]에 함께 넣어야 한다."
   },
   {
     "objectID": "main.html#css-working",
     "href": "main.html#css-working",
-    "title": "More on reveal.js",
+    "title": "More on  Quarto + Reveal.js",
     "section": "CSS working?",
     "text": "CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
   },
   {
     "objectID": "main.html#한글은-세종대왕이제",
     "href": "main.html#한글은-세종대왕이제",
-    "title": "More on reveal.js",
+    "title": "More on  Quarto + Reveal.js",
     "section": "한글은 세종대왕이제~",
     "text": "한글은 세종대왕이제~"
   }

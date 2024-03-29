@@ -1,5 +1,5 @@
 ---
-title: "More on reveal.js"
+title:  More on <br> Quarto + Reveal.js
 subtitle: "Another completely useless presentation"
 author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2024-03-28"

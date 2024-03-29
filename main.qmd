@@ -33,7 +33,7 @@ number-sections: false
 ## Disclaimer{.center}
 
 :::{.nonincremental}
-This is a companion testflight of [the former](https://fun-pt.lostineconomics.com/). In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). 
+This is a companion testflight of [the former](https://fun-pt.lostineconomics.com/). In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). [This](https://github.com/anarinsk/project_quarto-rjs-advanced) is source repo. 
 
 🐈🐈🐈
 
@@ -87,6 +87,9 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
     - 캡션 텍스트 가운데 정렬 
 
 ## CSS working? 
+
+- `customs.scss`에 있는 내용이 잘 작동하는가?
+    - css에서 그림의 캡션이 가운데로 오도록 정렬했다. 
 
 ::: {layout="[[0.86,1]]"}
 

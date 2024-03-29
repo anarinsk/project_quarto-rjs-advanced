@@ -4,7 +4,7 @@
     "href": "main.html#disclaimer",
     "title": "More on reveal.js",
     "section": "Disclaimer",
-    "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
+    "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
   },
   {
     "objectID": "main.html#slide-header",
@@ -25,7 +25,7 @@
     "href": "main.html#css-working",
     "title": "More on reveal.js",
     "section": "CSS working?",
-    "text": "CSS working?\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
+    "text": "CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
   },
   {
     "objectID": "main.html#한글은-세종대왕이제",

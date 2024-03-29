@@ -1,0 +1,108 @@
+---
+title: "More on reveal.js"
+subtitle: "Another completely useless presentation"
+author: "[anarinsk](https://www.lostineconomics.com)"
+date: "2024-03-28"
+format: 
+    revealjs:
+        embed-resources: true
+        include-in-header: [favicon.html, mathjax.html]
+        incremental: false   
+        theme: [format.scss, black, customs.scss]
+        css: []
+        transition: concave
+        background-transition: fade
+        smaller: false
+        scrollable: true
+        subtitle-as-header: false
+        sc-sb-title: true
+        logo: "logo2.png"
+        footer: "TEST FOR FOOTER!"
+        width: 1200
+        height: 800
+        #self-contained: true
+        slide-number: c
+fig-cap-location: top
+filters: 
+  - reveal-header
+slide-level: 2
+number-sections: false
+#engine: knitr
+---
+
+## Disclaimer{.center}
+
+:::{.nonincremental}
+This is a companion testflight of [the former](https://fun-pt.lostineconomics.com/). In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). 
+
+🐈🐈🐈
+
+- 이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
+- Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
+:::
+
+# `_Extensions`
+
+## Slide Header 
+
+- 슬라이드 헤더는 어떻게 붙이는가? 
+- 좋은 애드온이 있다. 애드온에 대한 설명은 아래 참고 
+- [reveal-header](https://github.com/shafayetShafee/reveal-header)
+
+--- 
+
+- 커스터마이즈를 위해서는 css를 수정하면 된다. 
+    - 아래는 폰트 사이즈와 표시 폰트의 색깔을 바꾸는 정도 예시했다. 
+
+```css
+.reveal .reveal-header .sc-title{
+    /* --header-font-color: #f80a0a !important; */
+    --header-font-size: max(10px, 2.5vw) !important; 
+}
+```
+- 마지막 페이지에서 헤더가 이상하게 뜨는 버그가 있다. 
+    - 이 버그는 커스텀 헤더를 블랭크로 적용해 해결하자. 
+    - 이 PT에 적용되어 있다. 
+
+```qmd
+::: header
+
+:::
+```
+# Quarto with CSS!
+
+## CSS what, where 
+
+- `scss`든 `css`든 불러올 수 있다.
+- 가장 문제가 되는 것은 위치 
+    - 만일 본문에 관련된 것이라면 `css: [...]`로 preamble에 넣으면 된다. 
+    - 헤더나 푸터와 관련된 것이라면 `theme: [...]`에 함께 넣어야 한다. 
+
+--- 
+
+- 현재 이 슬라이드에는 `customs.scss`가 적용되어 있다.
+    - `.reveal .reveal-header .sc-title` 설정 
+    - `.reveal .footer` 설정
+    - 제목에서 본문까지 거리 조절 
+    - 캡션 텍스트 가운데 정렬 
+
+## CSS working? 
+
+::: {layout="[[0.86,1]]"}
+
+![탑건 냥이](https://as2.ftcdn.net/v2/jpg/05/62/99/31/1000_F_562993122_e7pGkeY8yMfXJcRmclsoIjtOoVDDgIlh.jpg)
+
+![자는 냥이](https://as2.ftcdn.net/v2/jpg/07/52/49/77/1000_F_752497740_0jVHqW0BtpFsvVRpW80tgQRxpru14nf9.jpg)
+
+:::
+
+# 한글 섹션 테스트! 
+
+## 한글은 세종대왕이제~ 
+
+# End of Document
+
+::: header
+
+:::
+

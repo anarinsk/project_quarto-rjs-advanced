@@ -3,31 +3,35 @@ title:  More on <br> Quarto + Reveal.js
 subtitle: "Another completely useless presentation"
 author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2024-03-28"
+fig-cap-location: top
+filters: 
+  - reveal-header
+slide-level: 2
+number-sections: true
+#engine: knitr
+toc: true
+toc-depth: 1
 format: 
     revealjs:
         embed-resources: true
         include-in-header: [favicon.html, mathjax.html]
         incremental: false   
-        theme: [format.scss, theme-dark.scss, customs.scss]
-        css: []
         transition: concave
         background-transition: fade
         smaller: false
         scrollable: true
-        subtitle-as-header: false
-        sc-sb-title: true
         logo: "logo2.png"
         footer: "TEST FOR FOOTER!"
         width: 1200
         height: 800
         #self-contained: true
         slide-number: c
-fig-cap-location: top
-filters: 
-  - reveal-header
-slide-level: 2
-number-sections: false
-#engine: knitr
+        theme: [format.scss, theme-dark.scss, customs.scss]
+        css: []
+        # reveal-header options 
+        subtitle-as-header: false
+        sc-sb-title: true
+        hide-from-titleSlide: "all"
 ---
 
 ## Disclaimer{.center}

@@ -25,7 +25,7 @@ format:
         width: 1200
         height: 800
         #self-contained: true
-        slide-number: c
+        slide-number: c/t
         theme: [format.scss, theme-dark.scss, customs.scss]
         css: []
         # reveal-header options 
@@ -34,7 +34,7 @@ format:
         hide-from-titleSlide: "all"
 ---
 
-## Disclaimer{.center}
+## Disclaimer{.center -}
 
 :::{.nonincremental}
 This is a companion testflight of [the former](https://fun-pt.lostineconomics.com/). In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). [This](https://github.com/anarinsk/project_quarto-rjs-advanced) is source repo. 
@@ -103,11 +103,39 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 
 :::
 
+# Background Color 
+
+## theme-dark.scss
+
+- 이 파일을 손보면 된다.
+- 올 블랙이 부담스러워서 조금 톤다운을 했다. 
+
+# Numbering section 
+
+## How to 
+
+- `yml`에서 설정해주면 된다. 
+
+```yml
+number-sections: true
+```
+
+- 특정 슬라이드에서 빼고 싶다면 `{-}`를 넣자. 
+
+```qmd 
+# 슬라이드 제목 {-}
+```
+
 # 한글 섹션 테스트! 
 
 ## 한글은 세종대왕이제~ 
 
-# End of Document
+- 세종 대왕은 한글을 창제한 왕입니다. 
+- 백성을 위해서 글자를 만들어낸 왕이 있었을까요? 
 
----
+# {-}
+
+:::{style="font-family: 'SUITE', san-serif;font-size: 200%; font-weight: bold;"}
+End of Document
+:::
 

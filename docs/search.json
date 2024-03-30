@@ -3,8 +3,8 @@
     "objectID": "main.html#disclaimer",
     "href": "main.html#disclaimer",
     "title": "More on  Quarto + Reveal.js",
-    "section": "0.1 Disclaimer",
-    "text": "0.1 Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
   },
   {
     "objectID": "main.html#slide-header",
@@ -28,10 +28,24 @@
     "text": "2.2 CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
   },
   {
+    "objectID": "main.html#theme-dark.scss",
+    "href": "main.html#theme-dark.scss",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "3.1 theme-dark.scss",
+    "text": "3.1 theme-dark.scss\n\n이 파일을 손보면 된다.\n올 블랙이 부담스러워서 조금 톤다운을 했다."
+  },
+  {
+    "objectID": "main.html#how-to",
+    "href": "main.html#how-to",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.1 How to",
+    "text": "4.1 How to\n\nyml에서 설정해주면 된다.\n\nnumber-sections: true\n\n특정 슬라이드에서 빼고 싶다면 {-}를 넣자.\n\n# 슬라이드 제목 {-}"
+  },
+  {
     "objectID": "main.html#한글은-세종대왕이제",
     "href": "main.html#한글은-세종대왕이제",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.1 한글은 세종대왕이제~",
-    "text": "3.1 한글은 세종대왕이제~"
+    "section": "5.1 한글은 세종대왕이제~",
+    "text": "5.1 한글은 세종대왕이제~\n\n세종 대왕은 한글을 창제한 왕입니다.\n백성을 위해서 글자를 만들어낸 왕이 있었을까요?"
   }
 ]

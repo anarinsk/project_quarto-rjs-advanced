@@ -7,9 +7,8 @@
 
 ## How 
 
-### Tools 
-- Quarto CLI (Linux-64, macos-arm64)
-- VS Code의 Quarto 플러그인
+- [Quarto CLI](https://github.com/quarto-dev/quarto-cli)(Linux-64, macos-arm64)
+- [VS Code의 Quarto 플러그인](https://quarto.org/docs/tools/vscode.html)
 
 ### Source 
 - 문서 소스: `main.qmd`

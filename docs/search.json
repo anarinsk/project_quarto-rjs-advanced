@@ -49,6 +49,13 @@
     "text": "3.3 footer 로고 크기 변경\n\ncustoms.scss에 아래와 같이 설정했다.\n\n.reveal .slide-logo {\n    height: 80px !important;\n    width: 250px !important;\n    max-width: unset !important;\n    max-height: unset !important;\n  }"
   },
   {
+    "objectID": "main.html#단어-색깔-바꾸기",
+    "href": "main.html#단어-색깔-바꾸기",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "3.4 단어 색깔 바꾸기",
+    "text": "3.4 단어 색깔 바꾸기\n\n단어 하나의 색깔만 바꿔보자.\n다른 형식은 바뀌지 않아야 한다.\nHow does it look like in English?"
+  },
+  {
     "objectID": "main.html#q-a",
     "href": "main.html#q-a",
     "title": "More on  Quarto + Reveal.js",

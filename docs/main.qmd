@@ -56,23 +56,21 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 --- 
 
 - 커스터마이즈를 위해서는 css를 수정하면 된다. 
-    - 아래는 폰트 사이즈와 표시 폰트의 색깔을 바꾸는 정도 예시했다. 
+    - 아래는 `--my-brightness`를 조절해 섹션 헤더의 밝기를 조절하는 코드다. 
 
 ```css
-.reveal .reveal-header .sc-title{
-    /* --header-font-color: #f80a0a !important; */
-    --header-font-size: max(10px, 2.5vw) !important; 
+.reveal-header .sc-title p,
+.reveal-header .sb-title p {
+  font-size: max(15px, 1.45vw);
+  /* font-size: max(10px, 1.45vw); */
+  filter: brightness(var(--my-brightness));
 }
 ```
+
 - 마지막 페이지에서 헤더가 이상하게 뜨는 버그가 있다. 
-    - 이 버그는 커스텀 헤더를 블랭크로 적용해 해결하자. 
-    - 이 PT에 적용되어 있다. 
+    - 아직 해결책을 찾지 못했다... 
+    - 원래 의도는 `--my-brightness`를 조절해 헤더를 표시되지 않게 해보려 했다. 
 
-```qmd
-::: header
-
-:::
-```
 # Quarto with CSS!
 
 ## CSS what, where 
@@ -138,6 +136,12 @@ number-sections: true
     max-height: unset !important;
   }
 ```
+
+## 단어 색깔 바꾸기  
+
+- 단어 하나의 <span style="color:red;">**색깔**</span>만 바꿔보자. 
+- 다른 형식은 바뀌지 않아야 한다. 
+- How does it look like in <span style="color:#428632;">_English_</span>? 
 
 # End of Document {.unlisted .unnumbered}
 

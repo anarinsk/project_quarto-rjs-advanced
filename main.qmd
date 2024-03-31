@@ -27,7 +27,7 @@ format:
         #self-contained: true
         slide-number: c/t
         theme: [format.scss, theme-dark.scss, customs.scss]
-        css: []
+        #css: []
         # reveal-header options 
         subtitle-as-header: false
         sc-sb-title: true
@@ -140,16 +140,20 @@ number-sections: true
 ## 단어 색깔 바꾸기  
 
 - 단어 하나의 <span style="color:red;">**색깔**</span>만 바꿔보자. 
-- 다른 형식은 바뀌지 않아야 한다. 
+- <span style="color:yellow">다른 형식</span>은 바뀌지 않아야 한다. 
 - How does it look like in <span style="color:#428632;">_English_</span>? 
 
-# End of Document {.unlisted .unnumbered}
+# End of Document {
+    .unlisted .unnumbered
+    }
 
 ## Q & A {
   .unlisted .unnumbered 
-  background-color="black" 
+  .no-logo 
   background-image="./images/q_and_a.webp" 
   background-size="cover" 
-  background-opacity="0.5" }
+  background-opacity="0.4" 
+  }
+
 
 

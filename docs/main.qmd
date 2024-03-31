@@ -34,7 +34,7 @@ format:
         hide-from-titleSlide: "all"
 ---
 
-## Disclaimer{.center -}
+## Disclaimer {.unlisted .unnumbered}
 
 :::{.nonincremental}
 This is a companion testflight of [the former](https://fun-pt.lostineconomics.com/). In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/). [This](https://github.com/anarinsk/project_quarto-rjs-advanced) is source repo. 
@@ -45,7 +45,7 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 - Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
 :::
 
-# `_Extensions`
+# 확장 다루기(_Extensions) 
 
 ## Slide Header 
 
@@ -90,7 +90,7 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
     - 제목에서 본문까지 거리 조절 
     - 캡션 텍스트 가운데 정렬 
 
-## CSS working? 
+## CSS working?
 
 - `customs.scss`에 있는 내용이 잘 작동하는가?
     - css에서 그림의 캡션이 가운데로 오도록 정렬했다. 
@@ -103,16 +103,18 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 
 :::
 
-# Background Color 
+# 기타 기믹들 
 
-## theme-dark.scss
+## 배경색 조정하기 
 
-- 이 파일을 손보면 된다.
+- `theme-dark.scss`를 테마에 포함한다. 
 - 올 블랙이 부담스러워서 조금 톤다운을 했다. 
 
-# Numbering section 
+```css
+$body-bg: #303030;
+```
 
-## How to 
+## Numbering section 
 
 - `yml`에서 설정해주면 된다. 
 
@@ -120,22 +122,30 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 number-sections: true
 ```
 
-- 특정 슬라이드에서 빼고 싶다면 `{-}`를 넣자. 
+- `# 제목` 뒤에 `{}` 안에 설정하면 개별 슬라이드에서 통제 가능하다. 
+    - `.unlisted`: toc에서 뺀다. 
+    - `.unnumbered`: 번호를 뺀다.
 
-```qmd 
-# 슬라이드 제목 {-}
+## footer 로고 크기 변경 
+
+- `customs.scss`에 아래와 같이 설정했다. 
+
+```css
+.reveal .slide-logo {
+    height: 80px !important;
+    width: 250px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+  }
 ```
 
-# 한글 섹션 테스트! 
+# End of Document {.unlisted .unnumbered}
 
-## 한글은 세종대왕이제~ 
+## Q & A {
+  .unlisted .unnumbered 
+  background-color="black" 
+  background-image="./images/q_and_a.webp" 
+  background-size="cover" 
+  background-opacity="0.5" }
 
-- 세종 대왕은 한글을 창제한 왕입니다. 
-- 백성을 위해서 글자를 만들어낸 왕이 있었을까요? 
-
-# {-}
-
-:::{style="font-family: 'SUITE', san-serif;font-size: 200%; font-weight: bold;"}
-End of Document
-:::
 

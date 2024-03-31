@@ -1,8 +1,14 @@
 /*-- scss:rules --*/
 
-.reveal .reveal-header .sc-title{
-    /* --header-font-color: #f80a0a !important; */
-    --header-font-size: max(10px, 2.5vw) !important; 
+:root {
+  --my-brightness: 1;
+}
+
+.reveal-header .sc-title p,
+.reveal-header .sb-title p {
+  font-size: max(15px, 1.45vw);
+  /* font-size: max(10px, 1.45vw); */
+  filter: brightness(var(--my-brightness));
 }
 
 .reveal .footer {
@@ -19,5 +25,12 @@ figcaption {
   }
   
 .reveal .slides section h2{
-      margin-bottom: 100px;  /* 원하는 거리로 조절 */
+      margin-bottom: 50px;  /* 원하는 거리로 조절 */
+  }
+
+.reveal .slide-logo {
+    height: 80px !important;
+    width: 250px !important;
+    max-width: unset !important;
+    max-height: unset !important;
   }

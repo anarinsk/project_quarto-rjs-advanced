@@ -28,24 +28,31 @@
     "text": "2.2 CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
   },
   {
-    "objectID": "main.html#theme-dark.scss",
-    "href": "main.html#theme-dark.scss",
+    "objectID": "main.html#배경색-조정하기",
+    "href": "main.html#배경색-조정하기",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.1 theme-dark.scss",
-    "text": "3.1 theme-dark.scss\n\n이 파일을 손보면 된다.\n올 블랙이 부담스러워서 조금 톤다운을 했다."
+    "section": "3.1 배경색 조정하기",
+    "text": "3.1 배경색 조정하기\n\ntheme-dark.scss를 테마에 포함한다.\n올 블랙이 부담스러워서 조금 톤다운을 했다.\n\n$body-bg: #303030;"
   },
   {
-    "objectID": "main.html#how-to",
-    "href": "main.html#how-to",
+    "objectID": "main.html#numbering-section",
+    "href": "main.html#numbering-section",
     "title": "More on  Quarto + Reveal.js",
-    "section": "4.1 How to",
-    "text": "4.1 How to\n\nyml에서 설정해주면 된다.\n\nnumber-sections: true\n\n특정 슬라이드에서 빼고 싶다면 {-}를 넣자.\n\n# 슬라이드 제목 {-}"
+    "section": "3.2 Numbering section",
+    "text": "3.2 Numbering section\n\nyml에서 설정해주면 된다.\n\nnumber-sections: true\n\n# 제목 뒤에 {} 안에 설정하면 개별 슬라이드에서 통제 가능하다.\n\n.unlisted: toc에서 뺀다.\n.unnumbered: 번호를 뺀다."
   },
   {
-    "objectID": "main.html#한글은-세종대왕이제",
-    "href": "main.html#한글은-세종대왕이제",
+    "objectID": "main.html#footer-로고-크기-변경",
+    "href": "main.html#footer-로고-크기-변경",
     "title": "More on  Quarto + Reveal.js",
-    "section": "5.1 한글은 세종대왕이제~",
-    "text": "5.1 한글은 세종대왕이제~\n\n세종 대왕은 한글을 창제한 왕입니다.\n백성을 위해서 글자를 만들어낸 왕이 있었을까요?"
+    "section": "3.3 footer 로고 크기 변경",
+    "text": "3.3 footer 로고 크기 변경\n\ncustoms.scss에 아래와 같이 설정했다.\n\n.reveal .slide-logo {\n    height: 80px !important;\n    width: 250px !important;\n    max-width: unset !important;\n    max-height: unset !important;\n  }"
+  },
+  {
+    "objectID": "main.html#q-a",
+    "href": "main.html#q-a",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "Q & A",
+    "text": "Q & A\n\n\n\n\nTEST FOR FOOTER!"
   }
 ]

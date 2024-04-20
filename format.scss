@@ -36,13 +36,13 @@ $presentation-h6-font-size: 0.9em;
 // 본문에 쓰는 용도로는 작은 글씨를 활용하려면 작게 두자.
 .reveal section p {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 90%; 
+    font-size: 85%; 
 } 
 
 // Code 블럭 설정
 .reveal section pre code {
   font-family: 'D2Coding', monospace !important;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 // li 속성 크기 설정 
@@ -50,12 +50,12 @@ $presentation-h6-font-size: 0.9em;
 .reveal li, 
 .reveal ol {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 95%;
+    font-size: 85%;
 } 
 
 .reveal code{
   font-family: 'D2Coding', monospace !important;
-  font-size: 95%;
+  font-size: 85%;
 }
 
 // MathJax 폰트 변경 - NOT WORKING 
@@ -64,10 +64,10 @@ $presentation-h6-font-size: 0.9em;
 .mathjax3,
 .katex {
   font-family: 'STIX Two Text' !important;
-  font-size: 85%;
+  font-size: 80%;
 }
 
 // 콜아웃 박스 크기 수정 
 .callout.callout-style-default.my-callout .callout-body {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }

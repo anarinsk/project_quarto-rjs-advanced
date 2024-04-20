@@ -15,10 +15,6 @@
   font-weight: 600;
 }
 
-.reveal.hide-footer .quarto-footer{
-  display: none;
-}
-
 // 그림 캡션 위치 조정 
 figcaption {
   margin: auto;
@@ -61,7 +57,6 @@ figcaption {
 .reveal .footer > a[href*='title-slide'] {
   color: red !important;
 }
-
 
 /* 헤드에 섹션 뒤에 점 찍기 */
 .header-section-number:after {

@@ -81,7 +81,7 @@
     "href": "main.html#종으로-긴-그림",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.6 종으로 긴 그림",
-    "text": "4.6 종으로 긴 그림\n\n그런데 로고를 어떻게 없앴나?\n여기를 참고하라.\n\ncustoms.css에 slide-logo 관련 추가\n없애고 싶은 페이지에서 background-color=\"#303030\" 지정"
+    "text": "4.6 종으로 긴 그림\n\n그런데 로고를 어떻게 없앴나?\n여기를 참고하라.\n\ncustoms.css에 slide-logo 관련 추가\n없애고 싶은 페이지에서\nbackground-color=\"#303030\""
   },
   {
     "objectID": "main.html#객체-위치-설정-1",

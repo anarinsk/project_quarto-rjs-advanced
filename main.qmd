@@ -22,7 +22,7 @@ format:
         scrollable: false
         logo: "logo2.png"
         footer: "This is Footer! | anarinsk"
-        width: 1200
+        width: 1000
         #height: 675
         #margin: 0.15
         #self-contained: true
@@ -83,7 +83,7 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 
 - 마지막 페이지에서 헤더가 이상하게 뜨는 버그가 있다. 
     - 아직 해결책을 찾지 못했다... 
-    - 원래 의도는 `--my-brightness`를 조절해 헤더를 표시되지 않게 해보려 했다. 
+    - 의도는 `--my-brightness`를 조절해 헤더를 표시되지 않게 하는 것
 
 # Quarto with CSS!
 
@@ -170,9 +170,10 @@ number-sections: true
 - 그런데 로고를 어떻게 없앴나? 
 - [여기](https://stackoverflow.com/a/78257800)를 참고하라. 
     - `customs.css`에 slide-logo 관련 추가 
-    - 없애고 싶은 페이지에서 `background-color="#303030"` 지정
+    - 없애고 싶은 페이지에서 
+    - `background-color="#303030"`
 
-![](./images/long-height.jpeg){.absolute top="-10%" right="-10%" height="115%" style="max-height: unset; max-width: unset;"}
+![](./images/long-height.jpeg){.absolute top="-10%" right="-13%" height="120%" style="max-height: unset; max-width: unset;"}
 
 ::: footer
 :::

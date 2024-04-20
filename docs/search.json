@@ -4,62 +4,118 @@
     "href": "main.html#disclaimer",
     "title": "More on  Quarto + Reveal.js",
     "section": "Disclaimer",
-    "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
+    "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto+reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
+  },
+  {
+    "objectID": "main.html#이전-버전과-달라진-것-1",
+    "href": "main.html#이전-버전과-달라진-것-1",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "1.1 이전 버전과 달라진 것 1",
+    "text": "1.1 이전 버전과 달라진 것 1\n\ntheme를 세가지 구조로 재조직\n\nformat.scss: 전체적인 포맷\ncustoms.scss: 커스터마이즈\ntheme-dark.scss, theme-light.scss: 테마 컬러 선택"
+  },
+  {
+    "objectID": "main.html#이전-버전과-달라진-것-2",
+    "href": "main.html#이전-버전과-달라진-것-2",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "1.2 이전 버전과 달라진 것 2",
+    "text": "1.2 이전 버전과 달라진 것 2\n\ncustoms.scss 특화"
   },
   {
     "objectID": "main.html#slide-header",
     "href": "main.html#slide-header",
     "title": "More on  Quarto + Reveal.js",
-    "section": "1.1 Slide Header",
-    "text": "1.1 Slide Header\n\n슬라이드 헤더는 어떻게 붙이는가?\n좋은 애드온이 있다. 애드온에 대한 설명은 아래 참고\nreveal-header"
+    "section": "2.1 Slide Header",
+    "text": "2.1 Slide Header\n\n슬라이드 헤더는 어떻게 붙이는가?\n좋은 애드온이 있다. 애드온에 대한 설명은 아래 참고\nreveal-header"
   },
   {
     "objectID": "main.html#css-what-where",
     "href": "main.html#css-what-where",
     "title": "More on  Quarto + Reveal.js",
-    "section": "2.1 CSS what, where",
-    "text": "2.1 CSS what, where\n\nscss든 css든 불러올 수 있다.\n가장 문제가 되는 것은 위치\n\n만일 본문에 관련된 것이라면 css: [...]로 preamble에 넣으면 된다.\n헤더나 푸터와 관련된 것이라면 theme: [...]에 함께 넣어야 한다."
+    "section": "3.1 CSS what, where",
+    "text": "3.1 CSS what, where\n\nscss든 css든 불러올 수 있다.\n가장 문제가 되는 것은 위치\n\n만일 본문에 관련된 것이라면 css: [...]로 preamble에 넣으면 된다.\n헤더나 푸터와 관련된 것이라면 theme: [...]에 함께 넣어야 한다."
   },
   {
     "objectID": "main.html#css-working",
     "href": "main.html#css-working",
     "title": "More on  Quarto + Reveal.js",
-    "section": "2.2 CSS working?",
-    "text": "2.2 CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
+    "section": "3.2 CSS working?",
+    "text": "3.2 CSS working?\n\ncustoms.scss에 있는 내용이 잘 작동하는가?\n\ncss에서 그림의 캡션이 가운데로 오도록 정렬했다.\n\n\n\n\n\n\n\n탑건 냥이\n\n\n\n\n\n\n\n자는 냥이"
   },
   {
     "objectID": "main.html#배경색-조정하기",
     "href": "main.html#배경색-조정하기",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.1 배경색 조정하기",
-    "text": "3.1 배경색 조정하기\n\ntheme-dark.scss를 테마에 포함한다.\n올 블랙이 부담스러워서 조금 톤다운을 했다.\n\n$body-bg: #303030;"
+    "section": "4.1 배경색 조정하기",
+    "text": "4.1 배경색 조정하기\n\ntheme-dark.scss를 테마에 포함한다.\n올 블랙이 부담스러워서 조금 톤다운을 했다.\n\n$body-bg: #303030;"
   },
   {
     "objectID": "main.html#numbering-section",
     "href": "main.html#numbering-section",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.2 Numbering section",
-    "text": "3.2 Numbering section\n\nyml에서 설정해주면 된다.\n\nnumber-sections: true\n\n# 제목 뒤에 {} 안에 설정하면 개별 슬라이드에서 통제 가능하다.\n\n.unlisted: toc에서 뺀다.\n.unnumbered: 번호를 뺀다."
+    "section": "4.2 Numbering section",
+    "text": "4.2 Numbering section\n\nyml에서 설정해주면 된다.\n\nnumber-sections: true\n\n# 제목 뒤에 {} 안에 설정하면 개별 슬라이드에서 통제 가능하다.\n\n.unlisted: toc에서 뺀다.\n.unnumbered: 번호를 뺀다."
   },
   {
     "objectID": "main.html#footer-로고-크기-변경",
     "href": "main.html#footer-로고-크기-변경",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.3 footer 로고 크기 변경",
-    "text": "3.3 footer 로고 크기 변경\n\ncustoms.scss에 아래와 같이 설정했다.\n\n.reveal .slide-logo {\n    height: 80px !important;\n    width: 250px !important;\n    max-width: unset !important;\n    max-height: unset !important;\n  }"
+    "section": "4.3 footer 로고 크기 변경",
+    "text": "4.3 footer 로고 크기 변경\n\ncustoms.scss에 아래와 같이 설정했다.\n\n.reveal .slide-logo {\n    height: 80px !important;\n    width: 250px !important;\n    max-width: unset !important;\n    max-height: unset !important;\n  }"
   },
   {
     "objectID": "main.html#단어-색깔-바꾸기",
     "href": "main.html#단어-색깔-바꾸기",
     "title": "More on  Quarto + Reveal.js",
-    "section": "3.4 단어 색깔 바꾸기",
-    "text": "3.4 단어 색깔 바꾸기\n\n단어 하나의 색깔만 바꿔보자.\n다른 형식은 바뀌지 않아야 한다.\nHow does it look like in English?"
+    "section": "4.4 단어 색깔 바꾸기",
+    "text": "4.4 단어 색깔 바꾸기\n\n단어 하나의 색깔만 바꿔보자.\n다른 형식은 바뀌지 않아야 한다.\nHow does it look like in English?"
+  },
+  {
+    "objectID": "main.html#횡으로-긴-그림",
+    "href": "main.html#횡으로-긴-그림",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.5 횡으로 긴 그림",
+    "text": "4.5 횡으로 긴 그림\n\n\n\n이 화면처럼 그림을 넣으려면 scrollable: false로 설정"
+  },
+  {
+    "objectID": "main.html#종으로-긴-그림",
+    "href": "main.html#종으로-긴-그림",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.6 종으로 긴 그림",
+    "text": "4.6 종으로 긴 그림\n\n그런데 로고를 어떻게 없앴나?\n여기를 참고하라.\n\ncustoms.css에 slide-logo 관련 추가\n없애고 싶은 페이지에서 background-color=\"#303030\" 지정"
+  },
+  {
+    "objectID": "main.html#객체-위치-설정-1",
+    "href": "main.html#객체-위치-설정-1",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.7 객체 위치 설정 1",
+    "text": "4.7 객체 위치 설정 1\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n텍스트는 여기 있습니다.\n좀 더 올려붙일 수 없나요?"
+  },
+  {
+    "objectID": "main.html#객체-위치-설정-2",
+    "href": "main.html#객체-위치-설정-2",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.8 객체 위치 설정 2",
+    "text": "4.8 객체 위치 설정 2\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n텍스트를 이렇게 올려 붙였습니다!\ncss 스타일을 지정해 해결할 수 있다.\n\n:::{style=\"position:relative; top:-50px;\"} \nTO BE UPPLIFTED TEXT\n:::"
+  },
+  {
+    "objectID": "main.html#객체-위치-선정-3",
+    "href": "main.html#객체-위치-선정-3",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.9 객체 위치 선정 3",
+    "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 안애 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다."
+  },
+  {
+    "objectID": "main.html#css-적용이-안되는-부분",
+    "href": "main.html#css-적용이-안되는-부분",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "5.1 css 적용이 안되는 부분",
+    "text": "5.1 css 적용이 안되는 부분\n.reveal .slide-number &gt; a[href*='title-slide'] {\n  display: none;\n}\n\ncss에서 페이지([...])를 지정해서 slide-number를 지울 수 있다.\n같은 방식이 footer에는 적용되지 않더라…"
   },
   {
     "objectID": "main.html#q-a",
     "href": "main.html#q-a",
     "title": "More on  Quarto + Reveal.js",
     "section": "Q & A",
-    "text": "Q & A\n\n\n\n\nTEST FOR FOOTER!"
+    "text": "Q & A\n\n\n\n\n\n\n\nThis is Footer! | anarinsk"
   }
 ]

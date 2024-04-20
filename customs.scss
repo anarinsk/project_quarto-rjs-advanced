@@ -1,41 +1,82 @@
 /*-- scss:rules --*/
 
-:root {
-  --my-brightness: 1;
+// 헤드라인 글자 크기 조정 
+.reveal .reveal-header .sc-title{
+  /* --header-font-color: #f80a0a !important; */
+  --header-font-size: max(15px, 2.5vw) !important; 
 }
 
-.reveal-header .sc-title p,
-.reveal-header .sb-title p {
-  font-size: max(15px, 1.45vw);
-  /* font-size: max(10px, 1.45vw); */
-  filter: brightness(var(--my-brightness));
-}
-
+// 푸터 폰트 크기 조정
 .reveal .footer {
-    font-size: 20px !important;
-    text-align: center !important;
-    font-family: 'SUITE', sans-serif !important;
-    color: #808080 !important;
-    font-weight: 600 !important;
-  }
+  font-size: 25px !important;
+  text-align: center;
+  font-family: 'SUITE', sans-serif !important;
+  color: #808080;
+  font-weight: 600;
+}
 
+.reveal.hide-footer .quarto-footer{
+  display: none;
+}
+
+// 그림 캡션 위치 조정 
 figcaption {
-    margin: auto;
-    text-align: center;
-  }
-  
+  margin: auto;
+  text-align: center;
+}
+
+// 슬라이드 타이틀에서 본문까지 거리 
 .reveal .slides section h2{
-      margin-bottom: 50px;  /* 원하는 거리로 조절 */
-  }
+    margin-bottom: 30px; 
+}
 
+// 슬라이드 하단 로고 크기 조정 
 .reveal .slide-logo {
-    height: 80px;
-    width: 270px;
-    max-width: unset;
-    max-height: unset;
-  }
+  height: 60px !important; 
+  width: 190px !important;
+  max-height: unset !important;
+  max-width:  unset !important;
+}
+
+// 타이틀 넘버 제외하기 
+
+// 타이틀에서 페이지 넘버 표시 제외 
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+// Q&A 페이지에서 페이지 넘버 표시 제외
+.reveal .slide-number > a[href*='q-a'] {
+  display: none;
+}
+
+// EOD 페이지에서 페이지 넘버 표시 제외
+.reveal .slide-number > a[href*='end-of-document'] {
+  display: none;
+}
+
+// Footer 안보이게 하기 - NOT WORKING 
+
+// 타이틀에서 푸터 제외 
+.reveal .footer > a[href*='title-slide'] {
+  color: red !important;
+}
 
 
+/* 헤드에 섹션 뒤에 점 찍기 */
+.header-section-number:after {
+  content: ".";
+}
 
+/* Deprecated */
+.v-center {         
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+        }
 
-
+// 로고 없앨 때 필요 
+.reveal .slide-logo {
+  z-index: -999 !important;
+        }        

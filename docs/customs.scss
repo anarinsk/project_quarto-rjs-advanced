@@ -10,9 +10,9 @@
 .reveal .footer {
   font-size: 25px !important;
   text-align: center;
-  font-family: 'SUITE', sans-serif !important;
+  font-family: 'SUITE', sans-serif;
   color: #808080;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 // 그림 캡션 위치 조정 
@@ -53,11 +53,6 @@ figcaption {
 
 // Footer 안보이게 하기 - NOT WORKING 
 
-// 타이틀에서 푸터 제외 
-.reveal .footer > a[href*='title-slide'] {
-  color: red !important;
-}
-
 /* 헤드에 섹션 뒤에 점 찍기 */
 .header-section-number:after {
   content: ".";
@@ -69,9 +64,21 @@ figcaption {
   justify-content: center;
   align-items: center;
   height: 90%;
-        }
+}
 
 // 로고 없앨 때 필요 
 .reveal .slide-logo {
   z-index: -999 !important;
-        }        
+}        
+
+// TOC에서 bullet point 없애기 - NOT WORKING 
+
+.reveal ul > a[href*='TOC'] {
+  list-style-type: none;
+}
+
+/*
+.reveal .footer {
+  display: none !important;
+} 
+*/

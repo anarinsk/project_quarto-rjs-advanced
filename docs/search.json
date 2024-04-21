@@ -7,18 +7,18 @@
     "text": "Disclaimer\n\nThis is a companion testflight of the former. In this slide, I will test some advanced features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs. This is source repo.\n🐈🐈🐈\n\n이 PT는 이 프로젝트의 좀 고급진 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto+reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
   },
   {
-    "objectID": "main.html#이전-버전과-달라진-것-1",
-    "href": "main.html#이전-버전과-달라진-것-1",
+    "objectID": "main.html#알아두면-좋을-것",
+    "href": "main.html#알아두면-좋을-것",
     "title": "More on  Quarto + Reveal.js",
-    "section": "1.1 이전 버전과 달라진 것 1",
-    "text": "1.1 이전 버전과 달라진 것 1\n\ntheme를 세가지 구조로 재조직\n\nformat.scss: 전체적인 포맷\ncustoms.scss: 커스터마이즈\ntheme-dark.scss, theme-light.scss: 테마 컬러 선택"
+    "section": "1.1 알아두면 좋을 것",
+    "text": "1.1 알아두면 좋을 것\n\n🔗 LINK 내용을 잘 살펴보자.\n🔗 scss variable"
   },
   {
-    "objectID": "main.html#이전-버전과-달라진-것-2",
-    "href": "main.html#이전-버전과-달라진-것-2",
+    "objectID": "main.html#이전-버전과-달라진-것",
+    "href": "main.html#이전-버전과-달라진-것",
     "title": "More on  Quarto + Reveal.js",
-    "section": "1.2 이전 버전과 달라진 것 2",
-    "text": "1.2 이전 버전과 달라진 것 2\n\ncustoms.scss 특화"
+    "section": "1.2 이전 버전과 달라진 것",
+    "text": "1.2 이전 버전과 달라진 것\n\ntheme를 세가지 구조로 재조직\n\nformat.scss: 전체적인 포맷\ncustoms.scss: 커스터마이즈\ntheme-dark.scss, theme-light.scss: 테마 컬러 선택\n\ncustoms.scss 특화"
   },
   {
     "objectID": "main.html#slide-header",
@@ -32,7 +32,7 @@
     "href": "main.html#css-what-where",
     "title": "More on  Quarto + Reveal.js",
     "section": "3.1 CSS what, where",
-    "text": "3.1 CSS what, where\n\nscss든 css든 불러올 수 있다.\n가장 문제가 되는 것은 위치\n\n만일 본문에 관련된 것이라면 css: [...]로 preamble에 넣으면 된다.\n헤더나 푸터와 관련된 것이라면 theme: [...]에 함께 넣어야 한다."
+    "text": "3.1 CSS what, where\n\nscss든 css든 불러올 수 있다.\ntheme에서 불러오는 것이 대체로 제대로 먹힌다."
   },
   {
     "objectID": "main.html#css-working",
@@ -95,7 +95,7 @@
     "href": "main.html#객체-위치-설정-2",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.8 객체 위치 설정 2",
-    "text": "4.8 객체 위치 설정 2\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n텍스트를 이렇게 올려 붙였습니다!\ncss 스타일을 지정해 해결할 수 있다.\n\n:::{style=\"position:relative; top:-50px;\"} \nTO BE UPPLIFTED TEXT\n:::"
+    "text": "4.8 객체 위치 설정 2\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n텍스트를 이렇게 올려 붙였습니다!\ncss 스타일을 지정해 해결할 수 있다.\n\n:::{style=\"position:relative; top:-50px;\"} \n TEXT TO BE UPPLIFTED\n:::"
   },
   {
     "objectID": "main.html#객체-위치-선정-3",
@@ -105,11 +105,25 @@
     "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 안애 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다."
   },
   {
-    "objectID": "main.html#css-적용이-안되는-부분",
-    "href": "main.html#css-적용이-안되는-부분",
+    "objectID": "main.html#toc-page-number-counts",
+    "href": "main.html#toc-page-number-counts",
     "title": "More on  Quarto + Reveal.js",
-    "section": "5.1 css 적용이 안되는 부분",
-    "text": "5.1 css 적용이 안되는 부분\n.reveal .slide-number &gt; a[href*='title-slide'] {\n  display: none;\n}\n\ncss에서 페이지([...])를 지정해서 slide-number를 지울 수 있다.\n같은 방식이 footer에는 적용되지 않더라…"
+    "section": "4.10 TOC, Page Number, Counts",
+    "text": "4.10 TOC, Page Number, Counts\n\n.unlisted: TOC에 올라가지 않는다.\n.unnumbered: 번호가 매겨지는 경우 번호가 빠진다.\nvisibility=\"uncounted\": 페이지 카운트에서 제외된다."
+  },
+  {
+    "objectID": "main.html#page-number-표기-안되게-하기",
+    "href": "main.html#page-number-표기-안되게-하기",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.11 Page Number 표기 안되게 하기",
+    "text": "4.11 Page Number 표기 안되게 하기\n.reveal .slide-number &gt; a[href*='title-slide'] {\n  display: none;\n}\n\nscss에서 슬라이드 타이틀([...])을 지정해서 slide-number를 지울 수 있다."
+  },
+  {
+    "objectID": "main.html#list-of-the-unsolved",
+    "href": "main.html#list-of-the-unsolved",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "5.1 List of The Unsolved",
+    "text": "5.1 List of The Unsolved\n\nfooter 지우기\nTOC에서 bullet 빼기"
   },
   {
     "objectID": "main.html#q-a",

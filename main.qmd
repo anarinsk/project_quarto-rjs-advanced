@@ -11,6 +11,8 @@ number-sections: true
 #engine: knitr
 toc: true
 toc-depth: 1
+code-block-bg: true
+#code-block-border-left: "#31BAE9"
 format: 
     revealjs:
         embed-resources: true
@@ -32,7 +34,7 @@ format:
         subtitle-as-header: false
         sc-sb-title: true
         hide-from-titleSlide: "all"
-        #auto-stretch: false
+        #auto-stretch: fals
 ---
 
 ## Disclaimer {.unlisted .unnumbered}
@@ -48,14 +50,18 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 
 # Checkpoint 
 
-## 이전 버전과 달라진 것 1
+## 알아두면 좋을 것 
+
+- [🔗 LINK](https://quarto.org/docs/presentations/revealjs/advanced.html) 내용을 잘 살펴보자. 
+
+- [🔗 `scss` variable](https://quarto.org/docs/output-formats/html-themes.html#sass-variables) 
+
+## 이전 버전과 달라진 것
 
 - theme를 세가지 구조로 재조직 
     - `format.scss`: 전체적인 포맷
     - `customs.scss`: 커스터마이즈
     - `theme-dark.scss`, `theme-light.scss`: 테마 컬러 선택
-
-## 이전 버전과 달라진 것 2 
 
 - `customs.scss` 특화 
 
@@ -85,22 +91,22 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
     - 아직 해결책을 찾지 못했다... 
     - 의도는 `--my-brightness`를 조절해 헤더를 표시되지 않게 하는 것
 
-# Quarto with CSS!
+# Quarto with (S)CSS!
 
 ## CSS what, where 
 
 - `scss`든 `css`든 불러올 수 있다.
-- 가장 문제가 되는 것은 위치 
-    - 만일 본문에 관련된 것이라면 `css: [...]`로 preamble에 넣으면 된다. 
-    - 헤더나 푸터와 관련된 것이라면 `theme: [...]`에 함께 넣어야 한다. 
+- `theme`에서 불러오는 것이 대체로 제대로 먹힌다.
 
 --- 
 
-- 현재 이 슬라이드에는 `customs.scss`([LINK](https://github.com/anarinsk/project_quarto-rjs-advanced/blob/main/customs.scss))가 적용되어 있다.
+- 현재 이 슬라이드에는 `customs.scss`([🔗 LINK](https://github.com/anarinsk/project_quarto-rjs-advanced/blob/main/customs.scss))가 적용되어 있다.
     - `.reveal .reveal-header .sc-title` 설정 
-    - `.reveal .footer` 설정
     - 제목에서 본문까지 거리 조절 
     - 캡션 텍스트 가운데 정렬 
+    - 섹션 헤더 설정 
+    - 페이지 표시 예외 페이지 설정 
+    - 로고 색깔 레벨 (로고 지우는 데 필요)
 
 ## CSS working?
 
@@ -199,7 +205,7 @@ number-sections: true
 
 ```css
 :::{style="position:relative; top:-50px;"} 
-TO BE UPPLIFTED TEXT
+ TEXT TO BE UPPLIFTED
 :::
 ```
 :::
@@ -237,9 +243,13 @@ TO BE UPPLIFTED TEXT
 - `layout`과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다. 
 :::
 
-# Unsolved 
+## TOC, Page Number, Counts
 
-## css 적용이 안되는 부분 
+- `.unlisted`: TOC에 올라가지 않는다. 
+- `.unnumbered`: 번호가 매겨지는 경우 번호가 빠진다. 
+- `visibility="uncounted"`: 페이지 카운트에서 제외된다.
+
+## Page Number 표기 안되게 하기 
 
 ```css
 .reveal .slide-number > a[href*='title-slide'] {
@@ -247,17 +257,27 @@ TO BE UPPLIFTED TEXT
 }
 ```
 
-- css에서 페이지(`[...]`)를 지정해서 slide-number를 지울 수 있다. 
-- 같은 방식이 footer에는 적용되지 않더라...
+- scss에서 슬라이드 타이틀(`[...]`)을 지정해서 slide-number를 지울 수 있다.
+
+# Unsolved 
+
+## List of The Unsolved 
+
+- [ ] footer 지우기 
+- [ ] TOC에서 bullet 빼기 
 
 # End of Document {
-    .unlisted .unnumbered 
-    visibility="uncounted"}
+    .unlisted
+    .unnumbered 
+    visibility="uncounted"
+    }
 
 :::footer 
 :::
 
-## Q & A {.unlisted .unnumbered 
+## Q & A {
+  .unlisted 
+  .unnumbered 
   visibility="uncounted"
   background-color="#303030"
   background-image="./images/q_and_a.webp" 

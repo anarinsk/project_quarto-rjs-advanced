@@ -4,10 +4,10 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 /*-- scss:defaults --*/
-$presentation-h1-font-size: 125%;
-$presentation-h2-font-size: 110%;
-$presentation-h3-font-size: 95%;
-$presentation-h4-font-size:	95%;
+$presentation-h1-font-size: 120%;
+$presentation-h2-font-size: 105%;
+$presentation-h3-font-size: 90%;
+$presentation-h4-font-size:	90%;
 $presentation-h5-font-size:	90%;
 $presentation-h6-font-size: 90%;
 
@@ -36,7 +36,7 @@ $presentation-h6-font-size: 0.9em;
 // 본문에 쓰는 용도로는 작은 글씨를 활용하려면 작게 두자.
 .reveal section p {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 85%; 
+    font-size: 80%; 
 } 
 
 // Code 블럭 설정

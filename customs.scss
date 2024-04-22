@@ -73,10 +73,6 @@ figcaption {
 
 // TOC에서 bullet point 없애기 - NOT WORKING 
 
-.reveal ul > a[href*='TOC'] {
-  list-style-type: none;
-}
-
 /*
 .reveal .footer {
   display: none !important;

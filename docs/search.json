@@ -95,14 +95,14 @@
     "href": "main.html#객체-위치-설정-2",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.8 객체 위치 설정 2",
-    "text": "4.8 객체 위치 설정 2\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n텍스트를 이렇게 올려 붙였습니다!\ncss 스타일을 지정해 해결할 수 있다.\n\n:::{style=\"position:relative; top:-50px;\"} \n TEXT TO BE UPPLIFTED\n:::"
+    "text": "4.8 객체 위치 설정 2\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n텍스트를 이렇게 올려 붙였습니다!\ncss 스타일을 지정해 해결할 수 있다.\n\nmargin-x 스타일로 쓰자. x: top, bottom, left, right\n\n\n:::{style=\"margin-top:-50px;\"} \n TEXT TO BE UPPLIFTED\n:::"
   },
   {
     "objectID": "main.html#객체-위치-선정-3",
     "href": "main.html#객체-위치-선정-3",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.9 객체 위치 선정 3",
-    "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 안애 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다."
+    "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 안애 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다.\n각 개별 해설 부분에서 margin-x는 먹는데 다른 css는 먹지 않는다…"
   },
   {
     "objectID": "main.html#toc-page-number-counts",

@@ -165,21 +165,23 @@ number-sections: true
 
 ## 횡으로 긴 그림{.hide-footer}
 
-![](./images/Downtown_Philadelphia_Pano_1913.jpg){.absolute top="150px" left="-15%" width="130%" style="max-height: unset; max-width: unset;"}
+![](./images/Downtown_Philadelphia_Pano_1913.jpg){.absolute top="150px" left="-30%" width="170%" style="max-height: unset; max-width: unset;"}
 
 :::{style="position:relative; top: 350px;"}
 - 이 화면처럼 그림을 넣으려면 `scrollable: false`로 설정
+- 화면 삽입 태그의 `left`, `width`는 화면 크기와 해상도에 따라서 달라질 수 있다. 
 :::
 
 ## 종으로 긴 그림 {background-color="#303030" .smaller}
 
+- 마찬가지로 `right`, `height`의 적당한 조절이 필요하다. 
 - 그런데 로고를 어떻게 없앴나? 
 - [여기](https://stackoverflow.com/a/78257800)를 참고하라. 
     - `customs.css`에 slide-logo 관련 추가 
     - 없애고 싶은 페이지에서 
     - `background-color="#303030"`
 
-![](./images/long-height.jpeg){.absolute top="-10%" right="-13%" height="120%" style="max-height: unset; max-width: unset;"}
+![](./images/long-height.jpeg){.absolute top="-10%" right="-25%" height="120%" style="max-height: unset; max-width: unset;"}
 
 ::: footer
 :::
@@ -239,9 +241,21 @@ number-sections: true
 
 ::::
 
-- 이 예에서 볼 수 있듯이, `{layout...}` 안애 css는 먹지 않는다. 
+- 이 예에서 볼 수 있듯이, `{layout...}` 내에서 css는 먹지 않는다. 
 - `layout`과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다. 
 - 각 개별 해설 부분에서 `margin-x`는 먹는데 다른 css는 먹지 않는다... 
+
+## 객체 위치 선정 4
+
+- 객체를 올려 붙이는 또다른 방법이 있다. 
+
+```css
+:::{style="position:relative; top: -50px;"}
+```
+
+- css의 상대적 위치 잡기를 사용하는 것이다. 
+- 앞서 소개한 `margin-x` 방법과 비슷하지만 미묘하게 다르게 작동한다. 
+- 둘 다 알아두면 좋겠다. 
 
 ## TOC, Page Number, Counts
 
@@ -252,12 +266,13 @@ number-sections: true
 ## Page Number 표기 안되게 하기 
 
 ```css
-.reveal .slide-number > a[href*='title-slide'] {
+.reveal .slide-number > a[href*='end-of-document'] {
   display: none;
 }
 ```
 
 - scss에서 슬라이드 타이틀(`[...]`)을 지정해서 slide-number를 지울 수 있다.
+- 위의 예는 "End of Document" 슬라이드에서 페이지 넘버 표기를 지우는 코드다. 
 
 # Unsolved 
 

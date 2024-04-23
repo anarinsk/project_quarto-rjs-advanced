@@ -74,14 +74,14 @@
     "href": "main.html#횡으로-긴-그림",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.5 횡으로 긴 그림",
-    "text": "4.5 횡으로 긴 그림\n\n\n\n이 화면처럼 그림을 넣으려면 scrollable: false로 설정"
+    "text": "4.5 횡으로 긴 그림\n\n\n\n이 화면처럼 그림을 넣으려면 scrollable: false로 설정\n화면 삽입 태그의 left, width는 화면 크기와 해상도에 따라서 달라질 수 있다."
   },
   {
     "objectID": "main.html#종으로-긴-그림",
     "href": "main.html#종으로-긴-그림",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.6 종으로 긴 그림",
-    "text": "4.6 종으로 긴 그림\n\n그런데 로고를 어떻게 없앴나?\n여기를 참고하라.\n\ncustoms.css에 slide-logo 관련 추가\n없애고 싶은 페이지에서\nbackground-color=\"#303030\""
+    "text": "4.6 종으로 긴 그림\n\n마찬가지로 right, height의 적당한 조절이 필요하다.\n그런데 로고를 어떻게 없앴나?\n여기를 참고하라.\n\ncustoms.css에 slide-logo 관련 추가\n없애고 싶은 페이지에서\nbackground-color=\"#303030\""
   },
   {
     "objectID": "main.html#객체-위치-설정-1",
@@ -102,21 +102,28 @@
     "href": "main.html#객체-위치-선정-3",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.9 객체 위치 선정 3",
-    "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 안애 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다.\n각 개별 해설 부분에서 margin-x는 먹는데 다른 css는 먹지 않는다…"
+    "text": "4.9 객체 위치 선정 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이 녀석은 아기고양이인가?\n\n\n\n\n이 녀석은 귀여운 고양이인가?\n\n\n\n\n요 놈은 고양이인가?\n\n\n\n\n\n이 예에서 볼 수 있듯이, {layout...} 내에서 css는 먹지 않는다.\nlayout과 같은 수준에서 css를 먹이면 이 예시처럼 잘 먹는다.\n각 개별 해설 부분에서 margin-x는 먹는데 다른 css는 먹지 않는다…"
+  },
+  {
+    "objectID": "main.html#객체-위치-선정-4",
+    "href": "main.html#객체-위치-선정-4",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.10 객체 위치 선정 4",
+    "text": "4.10 객체 위치 선정 4\n\n객체를 올려 붙이는 또다른 방법이 있다.\n\n:::{style=\"position:relative; top: -50px;\"}\n\ncss의 상대적 위치 잡기를 사용하는 것이다.\n앞서 소개한 margin-x 방법과 비슷하지만 미묘하게 다르게 작동한다.\n둘 다 알아두면 좋겠다."
   },
   {
     "objectID": "main.html#toc-page-number-counts",
     "href": "main.html#toc-page-number-counts",
     "title": "More on  Quarto + Reveal.js",
-    "section": "4.10 TOC, Page Number, Counts",
-    "text": "4.10 TOC, Page Number, Counts\n\n.unlisted: TOC에 올라가지 않는다.\n.unnumbered: 번호가 매겨지는 경우 번호가 빠진다.\nvisibility=\"uncounted\": 페이지 카운트에서 제외된다."
+    "section": "4.11 TOC, Page Number, Counts",
+    "text": "4.11 TOC, Page Number, Counts\n\n.unlisted: TOC에 올라가지 않는다.\n.unnumbered: 번호가 매겨지는 경우 번호가 빠진다.\nvisibility=\"uncounted\": 페이지 카운트에서 제외된다."
   },
   {
     "objectID": "main.html#page-number-표기-안되게-하기",
     "href": "main.html#page-number-표기-안되게-하기",
     "title": "More on  Quarto + Reveal.js",
-    "section": "4.11 Page Number 표기 안되게 하기",
-    "text": "4.11 Page Number 표기 안되게 하기\n.reveal .slide-number &gt; a[href*='title-slide'] {\n  display: none;\n}\n\nscss에서 슬라이드 타이틀([...])을 지정해서 slide-number를 지울 수 있다."
+    "section": "4.12 Page Number 표기 안되게 하기",
+    "text": "4.12 Page Number 표기 안되게 하기\n.reveal .slide-number &gt; a[href*='end-of-document'] {\n  display: none;\n}\n\nscss에서 슬라이드 타이틀([...])을 지정해서 slide-number를 지울 수 있다.\n위의 예는 “End of Document” 슬라이드에서 페이지 넘버 표기를 지우는 코드다."
   },
   {
     "objectID": "main.html#list-of-the-unsolved",

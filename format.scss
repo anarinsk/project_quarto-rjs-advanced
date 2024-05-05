@@ -25,6 +25,13 @@ $headings-font-weight:  600 !default;
 }
 
 @font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  src: url("https://github.com/anarinsk/setup_webfonts/raw/main/IBMPlexMono-Regular.woff2") format('woff2'),
+  // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
+}
+
+@font-face {
   font-family: 'STIX Two Math';
   font-weight: 400;
   src: url("https://github.com/anarinsk/setup_webfonts/raw/main/STIXTwoMath-Regular.woff2") format('woff2'),
@@ -67,7 +74,7 @@ $presentation-h6-font-size: 0.9em;
 
 // Code 블럭 설정
 .reveal section pre code {
-  font-family: 'D2Coding', monospace !important;
+  font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
   font-size: 85%;
 }
 
@@ -80,7 +87,7 @@ $presentation-h6-font-size: 0.9em;
 } 
 
 .reveal code{
-  font-family: 'D2Coding', monospace !important;
+  font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
   font-size: 85%;
 }
 
@@ -89,7 +96,7 @@ $presentation-h6-font-size: 0.9em;
 .mathjax2,
 .mathjax3,
 .katex {
-  font-family: 'STIX Two Text' !important;
+  font-family: 'STIX Two Math' !important;
   font-size: 80%;
 }
 

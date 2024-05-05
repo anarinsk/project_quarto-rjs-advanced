@@ -81,7 +81,8 @@ $presentation-h6-font-size: 0.9em;
 // li 속성 크기 설정 
 .reveal ul, 
 .reveal li, 
-.reveal ol {
+.reveal ol, 
+.reveal li {
     font-family: 'SUIT', sans-serif !important;
     font-size: 85%;
 } 

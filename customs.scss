@@ -2,6 +2,7 @@
 
 // 헤드라인 글자 크기 조정 
 .reveal .reveal-header .sc-title{
+  margin-left: -50px;
   /* --header-font-color: #f80a0a !important; */
   --header-font-size: max(15px, 2.5vw) !important; 
 }
@@ -23,8 +24,10 @@ figcaption {
 
 // 슬라이드 타이틀에서 본문까지 거리 
 .reveal .slides section h2{
-    margin-bottom: 30px; 
+    margin-top: 0px; // 위에서 슬라이드 타이틀 간격 조정
+    margin-bottom: 40px; // 타이틀에서 본문까지 길이 조정 
 }
+
 
 // 슬라이드 하단 로고 크기 조정 
 .reveal .slide-logo {
@@ -67,6 +70,9 @@ figcaption {
 }
 
 // 로고 없앨 때 필요 
+// 슬라이드의 색깔을 배경색으로 지정한다.
+// `background-color="#303030"`
+
 .reveal .slide-logo {
   z-index: -999 !important;
 }        

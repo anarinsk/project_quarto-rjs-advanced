@@ -24,8 +24,8 @@ format:
         scrollable: false
         logo: "logo2.png"
         footer: "This is Footer! | anarinsk"
-        width: 1000
-        #height: 675
+        width: 1200 # 16:9 divided by 1.77, 16:10 divided by 1.6
+        height: 678 # 16:9 is 678 16:10 is 750
         #margin: 0.15
         #self-contained: true
         slide-number: c/t
@@ -167,12 +167,12 @@ number-sections: true
 
 ![](./images/Downtown_Philadelphia_Pano_1913.jpg){.absolute top="150px" left="-30%" width="170%" style="max-height: unset; max-width: unset;"}
 
-:::{style="position:relative; top: 350px;"}
+:::{style="position:relative; top: 450px;"}
 - 이 화면처럼 그림을 넣으려면 `scrollable: false`로 설정
 - 화면 삽입 태그의 `left`, `width`는 화면 크기와 해상도에 따라서 달라질 수 있다. 
 :::
 
-## 종으로 긴 그림 {background-color="#303030" .smaller}
+## 종으로 긴 그림 {background-color="#303030"}
 
 - 마찬가지로 `right`, `height`의 적당한 조절이 필요하다. 
 - 그런데 로고를 어떻게 없앴나? 
@@ -181,7 +181,7 @@ number-sections: true
     - 없애고 싶은 페이지에서 
     - `background-color="#303030"`
 
-![](./images/long-height.jpeg){.absolute top="-10%" right="-25%" height="120%" style="max-height: unset; max-width: unset;"}
+![](./images/long-height.jpeg){.absolute top="-15%" right="-10%" height="120%" style="max-height: unset; max-width: unset;"}
 
 ::: footer
 :::

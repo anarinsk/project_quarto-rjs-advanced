@@ -29,7 +29,7 @@ format:
         #margin: 0.15
         #self-contained: true
         slide-number: c/t
-        theme: [theme-dark.scss, customs.scss, format.scss]
+        theme: [format.scss, customs.scss, theme-dark.scss]
         # reveal-header options 
         subtitle-as-header: false
         sc-sb-title: true
@@ -79,11 +79,10 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
     - 아래는 `--my-brightness`를 조절해 섹션 헤더의 밝기를 조절하는 코드다. 
 
 ```css
-.reveal-header .sc-title p,
-.reveal-header .sb-title p {
-  font-size: max(15px, 1.45vw);
-  /* font-size: max(10px, 1.45vw); */
-  filter: brightness(var(--my-brightness));
+.reveal .reveal-header .sc-title p,
+.reveal .reveal-header .sb-title p {
+  font-size: max(10px, 1vw);
+  filter: brightness(0.85);
 }
 ```
 
@@ -284,7 +283,7 @@ div {
 }
 ```
 
-::: {.callout-warning icon=false}
+::: {.callout-warning icon="false"}
 - Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 - 한글은요? 잘 나와요? 

@@ -108,8 +108,6 @@ $presentation-h6-font-size: 0.9em;
 }
 */
 
-div {
-  &.callout {
+.callout {
     font-size: 80% !important;
-  }
 }

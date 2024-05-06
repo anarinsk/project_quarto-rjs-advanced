@@ -274,6 +274,24 @@ number-sections: true
 - scss에서 슬라이드 타이틀(`[...]`)을 지정해서 slide-number를 지울 수 있다.
 - 위의 예는 "End of Document" 슬라이드에서 페이지 넘버 표기를 지우는 코드다. 
 
+## `callout` Size
+
+```scss
+div {
+  &.callout {
+    font-size: 80% !important;
+  }
+}
+```
+
+::: {.callout-warning icon=false}
+- Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+- 한글은요? 잘 나와요? 
+:::
+
+- `icon=false` 옵션과 함께 쓰자. 
+
 # Unsolved 
 
 ## List of The Unsolved 

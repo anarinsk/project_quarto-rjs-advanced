@@ -126,6 +126,13 @@
     "text": "4.12 Page Number 표기 안되게 하기\n.reveal .slide-number &gt; a[href*='end-of-document'] {\n  display: none;\n}\n\nscss에서 슬라이드 타이틀([...])을 지정해서 slide-number를 지울 수 있다.\n위의 예는 “End of Document” 슬라이드에서 페이지 넘버 표기를 지우는 코드다."
   },
   {
+    "objectID": "main.html#callout-size",
+    "href": "main.html#callout-size",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.13 callout Size",
+    "text": "4.13 callout Size\ndiv {\n  &.callout {\n    font-size: 80% !important;\n  }\n}\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n한글은요? 잘 나와요?\n\n\n\n\n\nicon=false 옵션과 함께 쓰자."
+  },
+  {
     "objectID": "main.html#list-of-the-unsolved",
     "href": "main.html#list-of-the-unsolved",
     "title": "More on  Quarto + Reveal.js",

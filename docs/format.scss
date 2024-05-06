@@ -41,16 +41,16 @@ $headings-font-weight:  600 !default;
 $presentation-h1-font-size: 120%;
 $presentation-h2-font-size: 105%;
 $presentation-h3-font-size: 90%;
-$presentation-h4-font-size:	90%;
-$presentation-h5-font-size:	90%;
+$presentation-h4-font-size: 90%;
+$presentation-h5-font-size: 90%;
 $presentation-h6-font-size: 90%;
 
 /*
 $presentation-h1-font-size: 2.2em;
 $presentation-h2-font-size: 1.2em;
 $presentation-h3-font-size: 1.1em;
-$presentation-h4-font-size:	1em;
-$presentation-h5-font-size:	1em;
+$presentation-h4-font-size: 1em;
+$presentation-h5-font-size: 1em;
 $presentation-h6-font-size: 0.9em;
 */
 
@@ -102,6 +102,14 @@ $presentation-h6-font-size: 0.9em;
 }
 
 // 콜아웃 박스 크기 수정 
+/*
 .callout.callout-style-default.my-callout .callout-body {
-  font-size: 1rem;
+  font-size: 10rem;
+}
+*/
+
+div {
+  &.callout {
+    font-size: 80% !important;
+  }
 }

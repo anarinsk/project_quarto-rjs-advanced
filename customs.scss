@@ -3,7 +3,7 @@
 // 탑 섹션 표기 글자 크기 조정 
 .reveal .reveal-header .sc-title p,
 .reveal .reveal-header .sb-title p {
-  margin-left: -10px;
+  margin-left: 10px;
   font-size: max(15px, 1.2vw);
   filter: brightness(0.85);
 }
@@ -78,10 +78,6 @@ figcaption {
 .reveal .slide-logo {
   z-index: -999 !important;
 }        
-
-.callout .icon {
-  font-size: 5px; /* 원하는 크기로 변경하세요 */
-}
 
 // TOC에서 bullet point 없애기 - NOT WORKING 
 

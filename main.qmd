@@ -273,23 +273,46 @@ number-sections: true
 - scss에서 슬라이드 타이틀(`[...]`)을 지정해서 slide-number를 지울 수 있다.
 - 위의 예는 "End of Document" 슬라이드에서 페이지 넘버 표기를 지우는 코드다. 
 
-## `callout` Size
+## `callout` 1: Font Size {.smaller}
 
-```scss
-div {
-  &.callout {
-    font-size: 80% !important;
-  }
-}
-```
 
-::: {.callout-warning icon="false"}
+::: {.callout-warning icon="true" style="font-size: 170%;"}
 - Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 - 한글은요? 잘 나와요? 
 :::
 
-- `icon=false` 옵션과 함께 쓰자. 
+- `icon=false` 옵션과 함께 쓰자. 아이콘 사이즈는 아직 줄이지 못했다... 
+- `::: {.callout-warning icon="false" style="font-size: 80%;"}`를 활용했다.
+
+## `callout` 2: Customization {.smaller}
+
+- 박스의 넓이, 위치, 폭 등을 자유롭게 조정할 수 있다. 
+- 박스 아래 padding이 너무 크다면 아래 코드를 참고하라. 
+
+:::: {.callout-note icon=false appearance="simple" style="font-size: 1.5em; font-weight: 600; position:relative; left: 200px; top: -10px; width: 70%;"}
+
+## 중국집 메뉴 
+
+:::{style="margin-bottom: -5px;"}
+짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피 <br>
+누룽지탕, 유린기, 깐풍기, 해삼주스 
+:::
+
+::::
+
+```qmd
+:::: {.callout-note icon=false appearance="simple" style="font-size: 1em; font-weight: 600; position:relative; left: 200px; top: -40px; width: 70%;"}
+
+## 중국집 메뉴 
+
+:::{style="margin-bottom: -5px;"}
+짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피 <br>
+누룽지탕, 유린기, 깐풍기, 해삼주스 
+:::
+
+::::
+```
 
 # Unsolved 
 

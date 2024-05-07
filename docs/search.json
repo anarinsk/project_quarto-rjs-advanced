@@ -126,11 +126,18 @@
     "text": "4.12 Page Number 표기 안되게 하기\n.reveal .slide-number &gt; a[href*='end-of-document'] {\n  display: none;\n}\n\nscss에서 슬라이드 타이틀([...])을 지정해서 slide-number를 지울 수 있다.\n위의 예는 “End of Document” 슬라이드에서 페이지 넘버 표기를 지우는 코드다."
   },
   {
-    "objectID": "main.html#callout-size",
-    "href": "main.html#callout-size",
+    "objectID": "main.html#callout-1-font-size",
+    "href": "main.html#callout-1-font-size",
     "title": "More on  Quarto + Reveal.js",
-    "section": "4.13 callout Size",
-    "text": "4.13 callout Size\ndiv {\n  &.callout {\n    font-size: 80% !important;\n  }\n}\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n한글은요? 잘 나와요?\n\n\n\n\n\nicon=false 옵션과 함께 쓰자."
+    "section": "4.13 callout 1: Font Size",
+    "text": "4.13 callout 1: Font Size\n\n\n\n\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n한글은요? 잘 나와요?\n\n\n\n\n\n\nicon=false 옵션과 함께 쓰자. 아이콘 사이즈는 아직 줄이지 못했다…\n::: {.callout-warning icon=\"false\" style=\"font-size: 80%;\"}를 활용했다."
+  },
+  {
+    "objectID": "main.html#callout-2-customization",
+    "href": "main.html#callout-2-customization",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.14 callout 2: Customization",
+    "text": "4.14 callout 2: Customization\n\n박스의 넓이, 위치, 폭 등을 자유롭게 조정할 수 있다.\n박스 아래 padding이 너무 크다면 아래 코드를 참고하라.\n\n\n\n\n\n중국집 메뉴\n\n\n\n짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피  누룽지탕, 유린기, 깐풍기, 해삼주스\n\n\n\n\n\n:::: {.callout-note icon=false appearance=\"simple\" style=\"font-size: 1em; font-weight: 600; position:relative; left: 200px; top: -40px; width: 70%;\"}\n\n## 중국집 메뉴 \n\n:::{style=\"margin-bottom: -5px;\"}\n짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피 &lt;br&gt;\n누룽지탕, 유린기, 깐풍기, 해삼주스 \n:::\n\n::::"
   },
   {
     "objectID": "main.html#list-of-the-unsolved",

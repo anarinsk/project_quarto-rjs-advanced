@@ -330,7 +330,7 @@ number-sections: true
 :::
 
 :::{style="margin-top:-62px; margin-left: 380px;"}
-<div style="width: 23vw; height: 4vw; background-color: none; border: 2mm ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);">
+<div style="width: 11.2em; height: 2em; background-color: none; border: 0.3em ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);">
 </div>
 :::
 
@@ -344,11 +344,7 @@ number-sections: true
 
 ```md
 :::{style="margin-top:-62px; margin-left: 380px;"}
-<div style="width: 23vw; height: 4vw; 
-background-color: none; 
-border: 2mm ridge rgba(211, 220, 50, .6); 
-opacity:0.8; 
-transform: translate(0%, 0%);">
+<div style="width: 11.2em; height: 2em; background-color: none; border: 0.3em ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);">
 </div>
 :::
 ```

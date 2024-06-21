@@ -151,7 +151,7 @@
     "href": "main.html#원하는-곳에-박스-치기",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.15 원하는 곳에 박스 치기",
-    "text": "4.15 원하는 곳에 박스 치기\n\n난 이 텍스트에 박스를 칠꺼야~\n\n\n\n\n\n\n\n\n기본적으로는 html + css를 쓰면 되겠다.\n다만 페이지 안에 그냥 해당 태그를 달 경우 위치가 고정되지 않는다.\n특히 pdf export 시 크게 문제가 된다.\n어떻게 하면 될까? 아래와 같이 Quarto의 태그와 함께 쓰면 된다!\nQuarto 태그로 위치를 고정한 후, 안에 css로 도형을 그려 넣자.\n\n:::{style=\"margin-top:-62px; margin-left: 380px;\"}\n&lt;div style=\"width: 23vw; height: 4vw; \nbackground-color: none; \nborder: 2mm ridge rgba(211, 220, 50, .6); \nopacity:0.8; \ntransform: translate(0%, 0%);\"&gt;\n&lt;/div&gt;\n:::"
+    "text": "4.15 원하는 곳에 박스 치기\n\n난 이 텍스트에 박스를 칠꺼야~\n\n\n\n\n\n\n\n\n기본적으로는 html + css를 쓰면 되겠다.\n다만 페이지 안에 그냥 해당 태그를 달 경우 위치가 고정되지 않는다.\n특히 pdf export 시 크게 문제가 된다.\n어떻게 하면 될까? 아래와 같이 Quarto의 태그와 함께 쓰면 된다!\nQuarto 태그로 위치를 고정한 후, 안에 css로 도형을 그려 넣자.\n\n:::{style=\"margin-top:-62px; margin-left: 380px;\"}\n&lt;div style=\"width: 11.2em; height: 2em; background-color: none; border: 0.3em ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);\"&gt;\n&lt;/div&gt;\n:::"
   },
   {
     "objectID": "main.html#list-of-the-unsolved",

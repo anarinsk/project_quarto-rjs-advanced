@@ -38,21 +38,21 @@ $headings-font-weight:  600 !default;
   // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
 }
 
+/*
 $presentation-h1-font-size: 110%;
 $presentation-h2-font-size: 100%;
 $presentation-h3-font-size: 90%;
 $presentation-h4-font-size: 90%;
 $presentation-h5-font-size: 85%;
 $presentation-h6-font-size: 85%;
-
-/*
-$presentation-h1-font-size: 2.2em;
-$presentation-h2-font-size: 1.2em;
-$presentation-h3-font-size: 1.1em;
-$presentation-h4-font-size: 1em;
-$presentation-h5-font-size: 1em;
-$presentation-h6-font-size: 0.9em;
 */
+
+$presentation-h1-font-size: 1.5em;
+$presentation-h2-font-size: 1.25em;
+$presentation-h3-font-size: 1em;
+$presentation-h4-font-size: 1em;
+$presentation-h5-font-size: 0.9em;
+$presentation-h6-font-size: 0.9em;
 
 /*-- scss:rules --*/
 .reveal h1,

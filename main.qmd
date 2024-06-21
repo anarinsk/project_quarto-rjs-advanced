@@ -16,25 +16,25 @@ code-block-bg: true
 format: 
     revealjs:
         embed-resources: true
-        include-in-header: [favicon.html, mathjax.html]
+        include-in-header: [headers/favicon.html, headers/mathjax.html]
         incremental: false   
         transition: concave
         background-transition: fade
         smaller: false
         scrollable: false
-        logo: "logo2.png"
+        logo: "images/logo2.png"
         footer: "This is Footer! | anarinsk"
         width: 100%
         height: 100% 
         #margin: 0.15
         #self-contained: true
         slide-number: c/t
-        theme: [format.scss, customs.scss, theme-dark.scss]
+        theme: [styles/format.scss, styles/customs.scss, styles/theme-dark.scss]
         # reveal-header options 
         subtitle-as-header: false
         sc-sb-title: true
         hide-from-titleSlide: "all"
-        #auto-stretch: fals
+        #auto-stretch: false
 ---
 
 ## Disclaimer {.unlisted .unnumbered}

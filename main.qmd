@@ -325,19 +325,26 @@ number-sections: true
 <div style="width: 23vw; height: 4vw; background-color: none; border: 2mm ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);">
 </div>
 :::
+
 <br>
-<br>
+
 - 기본적으로는 html + css를 쓰면 되겠다. 
 - 다만 페이지 안에 그냥 해당 태그를 달 경우 위치가 고정되지 않는다. 
 - 특히 pdf export 시 크게 문제가 된다. 
-- 어떻게 하면 될까? Quarto의 태그와 함께 쓰면 된다! 
+- 어떻게 하면 될까? 아래와 같이 Quarto의 태그와 함께 쓰면 된다! 
+- Quarto 태그로 위치를 고정한 후, 안에 css로 도형을 그려 넣자. 
 
-```qmd
+```md
 :::{style="margin-top:-62px; margin-left: 380px;"}
-<div style="width: 23vw; height: 4vw; background-color: none; border: 2mm ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);">
+<div style="width: 23vw; height: 4vw; 
+background-color: none; 
+border: 2mm ridge rgba(211, 220, 50, .6); 
+opacity:0.8; 
+transform: translate(0%, 0%);">
 </div>
 :::
 ```
+
 
 # Unsolved 
 

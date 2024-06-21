@@ -65,6 +65,15 @@ This is a companion testflight of [the former](https://fun-pt.lostineconomics.co
 
 - `customs.scss` 특화 
 
+## The Basic of Slide Size
+
+- 크기 컨트롤의 요소들 
+    1. 브라우저의 화면 배율: 125% (자신의 디폴트에 맞추자)
+    2. 슬라이드 사이즈: YAML의 `width: 100%`, `height: 100%`
+- width와 height를 키울수록 슬라이드의 기본 사이즈는 작아진다. 
+- 따라서 자신의 디폴트에 맞춰서 css의 여러 요소들을 상대 크기로 설정하자. 
+- 이렇게 되면 화면 배율 조정에 따라서 요소들의 크기가 함께 변한다. 
+
 # 확장 다루기(`_Extensions`) 
 
 ## Slide Header 
@@ -276,15 +285,14 @@ number-sections: true
 
 ## `callout` 1: Font Size {.smaller}
 
-
-::: {.callout-warning icon="true" style="font-size: 170%;"}
+::: {.callout-warning icon="true" style="font-size: 90%;"}
 - Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 - 한글은요? 잘 나와요? 
 :::
 
 - `icon=false` 옵션과 함께 쓰자. 아이콘 사이즈는 아직 줄이지 못했다... 
-- `::: {.callout-warning icon="false" style="font-size: 80%;"}`를 활용했다.
+- `::: {.callout-warning icon="false" style="font-size: 80%;"}`를 활용하도록 하자. 
 
 ## `callout` 2: Customization {.smaller}
 

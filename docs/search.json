@@ -140,6 +140,13 @@
     "text": "4.14 callout 2: Customization\n\n박스의 넓이, 위치, 폭 등을 자유롭게 조정할 수 있다.\n박스 아래 padding이 너무 크다면 아래 코드를 참고하라.\n\n\n\n\n\n중국집 메뉴\n\n\n\n짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피  누룽지탕, 유린기, 깐풍기, 해삼주스\n\n\n\n\n\n:::: {.callout-note icon=false appearance=\"simple\" style=\"font-size: 1em; font-weight: 600; position:relative; left: 200px; top: -40px; width: 70%;\"}\n\n## 중국집 메뉴 \n\n:::{style=\"margin-bottom: -5px;\"}\n짜장면, 짬뽕, 볶음밥, 유니 짜장, 팔보채, 양장피 &lt;br&gt;\n누룽지탕, 유린기, 깐풍기, 해삼주스 \n:::\n\n::::"
   },
   {
+    "objectID": "main.html#원하는-곳에-박스-치기",
+    "href": "main.html#원하는-곳에-박스-치기",
+    "title": "More on  Quarto + Reveal.js",
+    "section": "4.15 원하는 곳에 박스 치기",
+    "text": "4.15 원하는 곳에 박스 치기\n\n난 이 텍스트에 박스를 칠꺼야~\n\n\n\n\n\n\n  - 기본적으로는 html + css를 쓰면 되겠다. - 다만 페이지 안에 그냥 해당 태그를 달 경우 위치가 고정되지 않는다. - 특히 pdf export 시 크게 문제가 된다. - 어떻게 하면 될까? Quarto의 태그와 함께 쓰면 된다!\n:::{style=\"margin-top:-62px; margin-left: 380px;\"}\n&lt;div style=\"width: 23vw; height: 4vw; background-color: none; border: 2mm ridge rgba(211, 220, 50, .6); opacity:0.8; transform: translate(0%, 0%);\"&gt;\n&lt;/div&gt;\n:::"
+  },
+  {
     "objectID": "main.html#list-of-the-unsolved",
     "href": "main.html#list-of-the-unsolved",
     "title": "More on  Quarto + Reveal.js",

@@ -38,12 +38,12 @@ $headings-font-weight:  600 !default;
   // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
 }
 
-$presentation-h1-font-size: 120%;
-$presentation-h2-font-size: 105%;
+$presentation-h1-font-size: 110%;
+$presentation-h2-font-size: 100%;
 $presentation-h3-font-size: 90%;
 $presentation-h4-font-size: 90%;
-$presentation-h5-font-size: 90%;
-$presentation-h6-font-size: 90%;
+$presentation-h5-font-size: 85%;
+$presentation-h6-font-size: 85%;
 
 /*
 $presentation-h1-font-size: 2.2em;
@@ -69,13 +69,13 @@ $presentation-h6-font-size: 0.9em;
 // 본문에 쓰는 용도로는 작은 글씨를 활용하려면 작게 두자.
 .reveal section p {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 80%; 
+    font-size: 85%; 
 } 
 
 // Code 블럭 설정
 .reveal section pre code {
   font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
-  font-size: 85%;
+  font-size: 80%;
 }
 
 // li 속성 크기 설정 
@@ -89,7 +89,7 @@ $presentation-h6-font-size: 0.9em;
 
 .reveal code{
   font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
-  font-size: 85%;
+  font-size: 75%;
 }
 
 // MathJax 폰트 변경 - NOT WORKING 

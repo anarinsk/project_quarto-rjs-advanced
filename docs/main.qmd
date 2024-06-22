@@ -34,7 +34,7 @@ format:
         subtitle-as-header: false
         sc-sb-title: true
         hide-from-titleSlide: "all"
-        #auto-stretch: fals
+        #auto-stretch: false
 ---
 
 ## Disclaimer {.unlisted .unnumbered}
@@ -330,14 +330,14 @@ number-sections: true
 난 여기 화려한 박스를 칠꺼야~ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; 여기는 좀 더 평범한 박스!
 :::
 
-:::{style="margin-top:-62px; margin-left: 380px;"}
+:::{style="margin-top: -65px; margin-left: 380px;"}
 <div style="width: 11em; height: 2em; background-color: none; border: 0.3em ridge rgba(211, 220, 50, .6); 
 opacity:0.8; transform: translate(0%, 0%);">
 </div>
 :::
 
 :::{style="margin-top:-70px; margin-left: 735px;"}
-<div style="width: 10em; height: 2.1em; background-color: none; border: 0.2em solid yellow; 
+<div style="width: 10em; height: 2.1em; background-color: none; border: 0.2em dotted yellow; 
 opacity:0.8; transform: translate(0%, 0%);">
 </div>
 :::

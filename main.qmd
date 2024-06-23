@@ -23,7 +23,7 @@ format:
         smaller: false
         scrollable: false
         logo: "images/logo2.png"
-        footer: "This is Footer! | anarinsk"
+        footer: "More on Quarto-Reveal.js | anarinsk"
         width: 100%
         height: 100% 
         #margin: 0.15

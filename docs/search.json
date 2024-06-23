@@ -137,7 +137,7 @@
     "href": "main.html#the-use-of-callout-font-size",
     "title": "More on  Quarto + Reveal.js",
     "section": "4.13 The Use of callout: Font Size",
-    "text": "4.13 The Use of callout: Font Size\n\n\n\n\n  WARNING\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n한글은요? 잘 나와요?\n\n\n\n\n\n\nicon=false 옵션과 함께 쓰자.\nQuarto 기본 callout 아이콘 크기는 조절되지 않는다.\n대신 Bootstrap 아이콘을 쓰면 크기 조절이 가능하다.\nformat.scss에서 폰트를 로딩한다.\n\n@import url(\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\");\n\n## &lt;i class=\"bi bi-cone-striped\" style=\"font-size: 1.2rem; color: red;\"&gt;&lt;/i&gt;&nbsp; WARNING\n- Note that there are five types of callouts, including:\n`note`, `warning`, `important`, `tip`, and `caution`.\n- 한글은요? 잘 나와요? \n:::"
+    "text": "4.13 The Use of callout: Font Size\n\n\n\n\n  WARNING\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n한글은요? 잘 나와요?\n\n\n\n\n\n\nicon=false 옵션과 함께 쓰자.\nQuarto 기본 callout 아이콘 크기는 조절되지 않는다.\n대신 Bootstrap 아이콘을 쓰면 크기 조절이 가능하다.\nformat.scss에서 폰트를 로딩한다.\n\n@import url(\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\");\n\n::: {.callout-warning icon=\"false\" style=\"font-size: 100%;\"}\n\n## &lt;i class=\"bi bi-exclamation-triangle-fill\" style=\"font-size: 1.2rem; color: red;\"&gt;&lt;/i&gt;&nbsp; WARNING\n- Note that there are five types of callouts, including:\n`note`, `warning`, `important`, `tip`, and `caution`.\n- 한글은요? 잘 나와요? \n\n:::"
   },
   {
     "objectID": "main.html#the-use-of-callout-simple-customization",

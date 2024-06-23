@@ -288,7 +288,7 @@ number-sections: true
 
 ::: {.callout-warning icon="false" style="font-size: 100%;"}
 
-## <i class="bi bi-cone-striped" style="font-size: 1.2rem; color: red;"></i>&nbsp; WARNING
+## <i class="bi bi-exclamation-triangle-fill" style="font-size: 1.2rem; color: red;"></i>&nbsp; WARNING
 - Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 - 한글은요? 잘 나와요? 
@@ -306,10 +306,13 @@ number-sections: true
 <br>
 
 ```md
-## <i class="bi bi-cone-striped" style="font-size: 1.2rem; color: red;"></i>&nbsp; WARNING
+::: {.callout-warning icon="false" style="font-size: 100%;"}
+
+## <i class="bi bi-exclamation-triangle-fill" style="font-size: 1.2rem; color: red;"></i>&nbsp; WARNING
 - Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 - 한글은요? 잘 나와요? 
+
 :::
 ```
 

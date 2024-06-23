@@ -329,7 +329,7 @@ number-sections: true
 
 ::::
 
-```qmd
+```md
 :::: {.callout-note icon=false appearance="simple" style="font-size: 1em; font-weight: 600; position:relative; left: 200px; top: -40px; width: 70%;"}
 
 ## <i class="bi-alarm" style="font-size: 1.5rem; color: cornflowerblue;"></i>&nbsp;중국집 메뉴 
